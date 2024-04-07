@@ -4,7 +4,7 @@ Step By Step/Notes:
     2. How to Display the shift in NY-3 (Santos-to-Suozzi)
         a. They will display next to each other, side-by-side. There will be some sort of note next to Sanots stating he was expelled. Depending on the progress made, maybe we could include a little excerpt that appears "onclick" (for better mobile accessiblity), explaining why.
 
-Deisgn & Guidelines: *SUBJECT TO CHANGE*
+Deisgn & Guidelines: 
         What is your congressional district’s electoral history?
         Users can enter their congressional district (only for NYC’s 18 congressional districts) and it will then display the election results for the top 3 performing candidates of that district for the previous 5 cycles. Initially, we had considered doing a "enter your zip code" for to get your congressional district and rep, but ran into the problem of finding data on which NYC zip codes are part of which congressional districts, as well as some zip codes potentially falling into more than one CD and the fact that there are also these types of tools are government sites already.
 
