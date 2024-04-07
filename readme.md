@@ -5,6 +5,11 @@ Step By Step/Notes: <br> <br>
     2. How to Display the shift in NY-3 (Santos-to-Suozzi)
         a. They will display next to each other, side-by-side. There will be some sort of note next to Sanots stating he was expelled. Depending on the progress made, maybe we could include a little excerpt that appears "onclick" (for better mobile accessiblity), explaining why.
 
+<br> <br>
+    3. Add drop-down menu to filter reps by borough
+         *NOT SURE YET IF WE WILL DO THIS YET*
+      
+
 Deisgn & Guidelines:  <br> <br>
         Users can enter their congressional district (only for NYC’s 18 congressional districts) and it will then display the election results for the top 3 performing candidates of that district for the previous 5 cycles. Initially, we had considered doing a "enter your zip code" for to get your congressional district and rep, but ran into the problem of finding data on which NYC zip codes are part of which congressional districts, as well as some zip codes potentially falling into more than one CD and the fact that there are also these types of tools are government sites already.
 
@@ -29,5 +34,5 @@ US CAPITOL - Photo Credits Information:
     Link:https://www.flickr.com/photos/alchemist_x/32210923208/in/photolist-R5npfY-GDHW1y-ahxaTD-4EjNgb-29oueVz-2o2Wg7q-fNoLVb-2nhHit6-2ohhZpU-8KbcoC-8KbbVC-96UBpv-8qpnFs-8JBQMt-2ohn1ud-2o2cHkk-2kq1ikh-2oiHijG-spBcE3-5oUxrw-YTzBhL-e2YEEh-NZZjP5-2ohoaro-J82HRK-2i3LNm4-8JEStJ-SQm6z3-2o1UksF-qAWSr4-2kJ7umq-2mJE7C3-EMpsNp-2ocWMSW-2mKGW2K-2odC7Ub-2nWfJ6d-2o2XwUN-GbbrVH-2oGoDY6-2mKLYws-2kyo6X5-2oeyZcT-2mQbPf6-7efffX-YVMCYL-2od5hDW-2oh2yv7-g1dizS-2i7s4S3
 
 
-
-
+Congressional Photo Source:
+    https://bioguide.congress.gov/ 

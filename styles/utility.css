@@ -6,53 +6,91 @@ body {
     align-content: center;
     justify-content: center;
     align-items: center; 
-  
-    
+}
+.sticky{
+    position:sticky;
+    background-color: floralwhite;
+    text-align: center;
 }
 .hed_dek{
-    margin: 1em auto;
+    text-align:center;
+}
+.hed_dek h1{
+    font-size: 30px;
+}
+.hed_dek h2{
+    font-size: 28px;
+}
+
+.hed_dek h1, .hed_dek h2{
     margin-top: 0;
     margin-bottom: 0;
-    text-align:center;
-
+    
 }
-
 img.capitol {
-    width: 2048px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center; 
-    margin-top: -220px;
-    margin-bottom: -620px;
+  width: auto;
+  display: flex;
+  height:auto;
 }
 
-.test {
+.find_pollsite {
+    display: flex;
     margin: 1em auto;
     width: 650px;
     height: 500px;
     border: floralwhite solid;
-    margin: 1em auto;
     justify-content: center;
     align-items: center; 
-    margin-top: 0;
-    margin-bottom: 0;
-}
 
-/* .scene.active {
-    background-color: aqua;
 }
-
-.scene {
-    height: 50vh;
+.current_reps {
+    max-width: 100%; /* Adjust as needed */
+    display:grid;
     text-align: center;
-    display: flex;
-    margin-top: 200px;
-    background-color: beige;
-    margin: 25vh auto;
-    border: 2px solid black;
     justify-content: center;
-    align-items: center;
-    width: 500px;
-} */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    height: auto;
+    column-gap: 10px;
+}
+.current_reps h1 {
+    font-size: 24px;
+    text-align: center;
+
+}
+.current_reps ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.current_reps li {
+    
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+
+}
+.current_reps li img {
+    max-width: 100%;
+    height:auto;
+    
+}
+.first_half, .second_half, .last_two{
+    max-width: 100%; /* Adjust as needed */
+    display:grid;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    height: auto;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}

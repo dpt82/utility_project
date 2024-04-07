@@ -1,27 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <link rel="stylesheet" href="styles/utility.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
-        <title>What is Your Congressional District's Electoral History?</title>
+    <title>What is Your Congressional District's Electoral History?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/utility.css">
+    <script src="scripts/script.js"></script> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
 </head>
 <body>
     <main>
-        <section class="container">
-                <!-- <picture> 
-                    <img class="capitol" src="media/US_Capitol_at_Night.jpg"> 
-                </picture> -->
-                <div class ="hed_dek">
+        <section id="container">
+            <section style="position: sticky; top: 2px; background-color: floralwhite">
+                <div id class ="hed_dek">
                     <h1>Half of New York's Congressional Delegagtion comes from New York City </h1>
-                        <h2>Who Has Your District Sent to Congress?</h2>
+                        <h2>What's Your Congressional District's Electoral History?</h2>
+                        <p style="font-size:20px;"> <span style="color: darkred;font-weight:bold;"> Spoiler Alert:</span> unless you live in one of <span style="color: darkred; font-weight:bold;"> 5 rare districts,</span> your representative is likely the same as it was <span style="color: darkred; font-weight:bold;">10 years ago. </span></p>
                 </div>
-                    <div class="find_pollsite">
-                        <iframe class="test" s.rc="https://findmypollsite.vote.nyc"></iframe>
-                        <style {display:none}></style>
+            </section>
+           
+                <section id class="current_reps">
+                    <div class="first_half">
+                    <h1> NYC Congressional Members (2022-2024)</h1>
+                        
+                    <ul>
+                        <li>
+                            <img src="media/current members/suozzi.jpeg" alt="Tom Suozzi">
+                            <p>Tom Suozzi (D-3)</p>
+                        </li>
+                        <li>
+                            <img src="media/current members/meeks.jpeg" alt="Gregory Meeks"> 
+                            <p>Gregory Meeks (D-5)</p>
+                        </li>
+                        <li>
+                            <img src="media/current members/meng.jpeg" alt="Grace Meng"> 
+                            <p>Grace Meng (D-6)</p>
+                        </li>
+                        <li>
+                            <img src="media/current members/velázquez.jpeg" alt="Nydia Velázquez"> 
+                            <p>Nydia Velázquez (D-7)</p>
+                        </li>
+                        <li>
+                            <img src="media/current members/jeffries.jpeg" alt="Hakeem Jeffries">
+                            <p>Hakeem Jeffries (D-8)</p>
+                        </li>
+                        <li>
+                            <img src="media/current members/clarke.jpeg" alt="Yvette Clarke"> 
+                            <p>Yvette Clarke (D-9)</p>
+                        </li>
                     </div>
+                <div class="second_half">
+                            <li>
+                                <img src="media/current members/goldman.jpeg" alt="Dan Goldman"> 
+                                <p> Dan Goldman (D-10)</p>
+                            </li>
+                            <li>
+                                <img src="media/current members/mailliotakis.jpeg" alt="Nicole Malliotakis">
+                                <p>Nicole Malliotakis (R-11)</p>
+                            </li>
+                            <li>
+                                <img src="media/current members/nadler.jpeg" alt="Jerrold Nadler"> 
+                                <p>Jerrold Nadler (D-12)</p>
+                            </li>
+                            <li>
+                                <img src="media/current members/espaillat.jpeg" alt="Adriano Espaillat"> 
+                                <p>Adriano Espaillat (D-13)</p>
+                            </li>
+                            <li>
+                                <img src="media/current members/aoc.jpeg" alt="Alexandria Ocasio-Cortez">
+                                <p> Alexandria Ocasio-Cortez (D-14)</p>
+                            </li>
+                        </div>
+                    <div class="last_two">
+                                <li>
+                                    <img src="media/current members/torres.jpeg" alt="Ritchie Torres"> 
+                                    <p>Ritchie Torres (D-15)</p>
+                                </li>
+                                <li>
+                                    <img src="media/current members/bowman.jpeg" alt="Jamaal Bowman"> 
+                                    <p>Jamaal Bowman (D-16)</p>
+                                </li>
+                    </div>
+                    </ul>
+                </section>
+            <section style="display:none;">
+                 <iframe class="find_pollsite" src="https://findmypollsite.vote.nyc"></iframe>
+            </section>
         </section>
     </main>
 </body>
