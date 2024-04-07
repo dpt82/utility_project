@@ -44,7 +44,7 @@ img.capitol {
 
 }
 .current_reps {
-    max-width: 100%; /* Adjust as needed */
+    max-width: 100%; 
     display:grid;
     text-align: center;
     justify-content: center;
@@ -81,7 +81,7 @@ img.capitol {
     
 }
 .first_half, .second_half, .last_two{
-    max-width: 100%; /* Adjust as needed */
+    max-width: 100%; 
     display:grid;
     text-align: center;
     justify-content: center;
