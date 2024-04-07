@@ -26,7 +26,7 @@ Deisgn & Guidelines: *SUBJECT TO CHANGE*
         At any point, a user would have the choice of clicking a button, placed somewhere on the footer that returns them to the “enter your district” element, in case they want to look up another district.
 
 
-<!-- US CAPITOL - Photo Credits Information:  -->
+US CAPITOL - Photo Credits Information: 
     Link:https://www.flickr.com/photos/alchemist_x/32210923208/in/photolist-R5npfY-GDHW1y-ahxaTD-4EjNgb-29oueVz-2o2Wg7q-fNoLVb-2nhHit6-2ohhZpU-8KbcoC-8KbbVC-96UBpv-8qpnFs-8JBQMt-2ohn1ud-2o2cHkk-2kq1ikh-2oiHijG-spBcE3-5oUxrw-YTzBhL-e2YEEh-NZZjP5-2ohoaro-J82HRK-2i3LNm4-8JEStJ-SQm6z3-2o1UksF-qAWSr4-2kJ7umq-2mJE7C3-EMpsNp-2ocWMSW-2mKGW2K-2odC7Ub-2nWfJ6d-2o2XwUN-GbbrVH-2oGoDY6-2mKLYws-2kyo6X5-2oeyZcT-2mQbPf6-7efffX-YVMCYL-2od5hDW-2oh2yv7-g1dizS-2i7s4S3
 
 
