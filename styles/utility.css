@@ -1,0 +1,58 @@
+body {
+    background-color: floralwhite;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center; 
+  
+    
+}
+.hed_dek{
+    margin: 1em auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align:center;
+
+}
+
+img.capitol {
+    width: 2048px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center; 
+    margin-top: -220px;
+    margin-bottom: -620px;
+}
+
+.test {
+    margin: 1em auto;
+    width: 650px;
+    height: 500px;
+    border: floralwhite solid;
+    margin: 1em auto;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* .scene.active {
+    background-color: aqua;
+}
+
+.scene {
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    margin-top: 200px;
+    background-color: beige;
+    margin: 25vh auto;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+} */
