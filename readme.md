@@ -1,6 +1,7 @@
 Step By Step/Notes:
     1. Google Sheets (Sheet: Reps 2014-2022)
-        a. Some off-year (non-election year) columns were left in place to show incidents where a representative resigned or otherwise ceased to hold office and was replaced via special election. 
+        a. Some off-year (non-election year) columns were left in place to show incidents where a representative resigned or otherwise ,ceased to hold office and was replaced via special election. 
+<br> <br>
     2. How to Display the shift in NY-3 (Santos-to-Suozzi)
         a. They will display next to each other, side-by-side. There will be some sort of note next to Sanots stating he was expelled. Depending on the progress made, maybe we could include a little excerpt that appears "onclick" (for better mobile accessiblity), explaining why.
 
