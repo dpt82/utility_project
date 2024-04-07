@@ -6,7 +6,8 @@ Step By Step/Notes: <br> <br>
         a. They will display next to each other, side-by-side. There will be some sort of note next to Sanots stating he was expelled. Depending on the progress made, maybe we could include a little excerpt that appears "onclick" (for better mobile accessiblity), explaining why.
 
 Deisgn & Guidelines: 
-        What is your congressional district’s electoral history?
+     ```What is your congressional district’s electoral history?
+
         Users can enter their congressional district (only for NYC’s 18 congressional districts) and it will then display the election results for the top 3 performing candidates of that district for the previous 5 cycles. Initially, we had considered doing a "enter your zip code" for to get your congressional district and rep, but ran into the problem of finding data on which NYC zip codes are part of which congressional districts, as well as some zip codes potentially falling into more than one CD and the fact that there are also these types of tools are government sites already.
 
         We would like to include a section that says don't know your district? Enter your info below! Below that text, will be an embed to the NYC Find my poll site/election district website. We have already tested embedding this on an empty html document using iframe src and have it working. 
@@ -24,7 +25,7 @@ Deisgn & Guidelines:
         Once the user inputs their district, it will hide the page they’re on and display pictures within cards of the current representative for that district. If a user clicks on the picture for that representative, it will show a new page with the election results for the previous 5 cycles in that district showing only the results of the top 3 performing candidates for that race. That would be displayed alongside a bar chart showing the election results. Continuing to scroll down would show the results for the previous years results, dating back no further than 5 election cycles past the most recent one. 
 
         Interactivity for Experience:
-        At any point, a user would have the choice of clicking a button, placed somewhere on the footer that returns them to the “enter your district” element, in case they want to look up another district.
+        At any point, a user would have the choice of clicking a button, placed somewhere on the footer that returns them to the “enter your district” element, in case they want to look up another district.```
 
 
 US CAPITOL - Photo Credits Information: 
