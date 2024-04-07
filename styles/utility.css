@@ -7,22 +7,34 @@ body {
     justify-content: center;
     align-items: center; 
 }
-.sticky{
+nav{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+.nav_2{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+#sticky{
     position:sticky;
     background-color: floralwhite;
     text-align: center;
 }
-.hed_dek{
+#hed_dek{
     text-align:center;
 }
-.hed_dek h1{
+#hed_dek h1{
     font-size: 30px;
 }
-.hed_dek h2{
+#hed_dek h2{
     font-size: 28px;
 }
 
-.hed_dek h1, .hed_dek h2{
+#hed_dek h1, .hed_dek h2{
     margin-top: 0;
     margin-bottom: 0;
     
@@ -33,7 +45,7 @@ img.capitol {
   height:auto;
 }
 
-.find_pollsite {
+#find_pollsite {
     display: flex;
     margin: 1em auto;
     width: 650px;
@@ -43,7 +55,7 @@ img.capitol {
     align-items: center; 
 
 }
-.current_reps {
+#current_reps {
     max-width: 100%; 
     display:grid;
     text-align: center;
@@ -54,19 +66,19 @@ img.capitol {
     height: auto;
     column-gap: 10px;
 }
-.current_reps h1 {
+#current_reps h1 {
     font-size: 24px;
     text-align: center;
 
 }
-.current_reps ul {
+#current_reps ul {
     list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
    
 }
-.current_reps li {
+#current_reps li {
     
     border-radius: 4px;
     padding: 10px;
@@ -75,12 +87,12 @@ img.capitol {
    
 
 }
-.current_reps li img {
+#current_reps li img {
     max-width: 100%;
     height:auto;
     
 }
-.first_half, .second_half, .last_two{
+#first_half, #second_half, #last_two{
     max-width: 100%; 
     display:grid;
     text-align: center;
@@ -93,4 +105,8 @@ img.capitol {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+}
+
+#Tom_Suozzi{
+    opacity: 100px;
 }
