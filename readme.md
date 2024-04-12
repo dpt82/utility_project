@@ -1,4 +1,11 @@
 MAJOR WIP 
+    To Do:
+        1. Get the rest of photos (for US congresspeople)
+        2. Create the stacked bar charts
+        3. Add the election data
+        4. Write the Javascript
+        5. Design CSS for Mobile
+        6. Revise the overall style
 
 
 Step By Step/Notes: <br> <br>
