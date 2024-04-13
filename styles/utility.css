@@ -217,18 +217,12 @@ nav{
 @media only screen and (max-width: 600px) and (orientation: portrait) {
     body {
         background-color: aliceblue;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
         font-family: 'Nunito Sans', sans-serif;
-        align-content: center;
-        align-items: center;  
-        margin:0;
     }
     #header_img{
-        width: 450px;
+        width: 50%;
         top: 0;
-        height:fit-content;
+        height:auto;
         position: sticky;
         z-index: 1;
       }
