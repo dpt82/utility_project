@@ -4,13 +4,17 @@ body {
     align-content: center;
     align-items: center; 
     margin:0;
+   
 }
 #fusion_graphics{
     max-width: 100%;
     height:auto;
     display:flex;
-   justify-content: center;
+    justify-content: center;
+
 }
+
+
 #marmorato_graph{
     max-width: 100%;
     height:auto;
