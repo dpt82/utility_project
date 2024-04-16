@@ -1,5 +1,8 @@
+4/16/2024
+    ```Readme is outdated (from the scrolly version) ```
+
 MAJOR WIP 
-    To Do:
+ To Do:
         1. Get the rest of photos (for US congress people)
         2. Create the stacked bar charts
         4. Write more Javascript
