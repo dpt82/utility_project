@@ -23,8 +23,8 @@ const submitButton = document.getElementById("submit");
                                 showPopup("Invalid District! Enter an NYC Congressional District");
                                 return;
                         }
-
-                        // Create a pop-up so the user knows the results are loading.
+// REMEMBER TO ADJUST THE FUNCTION BELOW SO IT OPENS THE RESULTS FOR THAT DISTRICT
+                       // Create a pop-up so the user knows the results are loading.
                         const popup = createPopup("Loading District Information");
 
                         // Remove the pop-up after 3 seconds
@@ -33,8 +33,7 @@ const submitButton = document.getElementById("submit");
                                 launchNewPage(userInput);
                         }, 3000);
                 }
-        }
-
+}
         function createPopup(message) {
                 const popup = document.createElement("div");
                 popup.textContent = message;
@@ -54,7 +53,7 @@ const submitButton = document.getElementById("submit");
         function showPopup(message) {
                 const popup = createPopup(message);
 
-                // Remove the pop-up after 3 seconds
+// Remove the pop-up after 3 seconds (To avoid an instant pop-up and make it look like it's actually loading).
                 setTimeout(function() {
                         popup.remove();
                 }, 3000);
@@ -63,7 +62,7 @@ const submitButton = document.getElementById("submit");
 
         
 cdButton.addEventListener("click", function() {
-// Create a pop-up to indicate that a popup is incoming
+// Create a pop-up message to let the user know, that a popup with an external webpage is incoming
         const loadingPopup = document.createElement("div");
         loadingPopup.textContent = "Find My Election District Now Loading! A pop-up will soon appear.";
         loadingPopup.style.position = "fixed";

@@ -10,11 +10,9 @@ body {
   
 }
 
-#header{
-    /* background-color: whitesmoke; */
+/* #header{   
     border-bottom: solid purple;
-    opacity: 90%;
-}
+} */
 #footer{
     /* background-color: whitesmoke; */
     border-top: solid purple;
@@ -55,11 +53,10 @@ article{
 }
 
 #intro_Grafs p{
-    display:flex;
     flex-direction: column;
     margin: 0 auto;
     width:50%;
-    border-bottom:solid purple;
+    /* border-bottom:solid purple; */
     justify-content:center;
 
 }
