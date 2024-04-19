@@ -11,11 +11,19 @@
          <meta charset="UTF-8">
 </head>
 <body>
-    <section id="header">
-        <header>
-           <h5 style="text-align:center;"> Coding The News: Utility Project <img src="media/Icons/latest-news-newspaper-icon.svg" alt="Newspaper Icon"  style="width: 16px;  vertical-align: middle; margin-left: 5px"></h5>
-        </header>
-    </section>
+<section id="header">
+    <header>
+        <h5 style="text-align:center;"> Coding The News: Utility Project <img src="media/Icons/latest-news-newspaper-icon.svg" alt="Newspaper Icon"  style="width: 16px;  vertical-align: middle; margin-left: 5px"></h5>
+        <nav>
+            <a style =" text-decoration: none;" href="fusion_voting.html">
+                <div style="color:cornflowerblue;">
+                    Click Here for Fusion Voting Charts (Custom Graphics Project)
+                </div >
+            </a>
+        </nav>
+       
+    </header>
+</section>
     <h3 style ="text-align: center;"> 
         Find out how your Congressional District has voted historically. 
     </h3>
@@ -25,8 +33,8 @@
     <form>
         <label style="border-bottom: solid purple;;width: 16px; vertical-align: middle; margin-left: 5px;" for="cd-Input">
                 Enter a CD:</label>
-        <!-- THE JS IN LINE (28) WILL MAKE IT SO THE INPUT BOX HAS "NYC ONLY" INSIDE THE BOX.
-        ONCE THE USER GOES TO INPUT THEIR CD, IT DISAPPEARS. THIS IS TO LET THEM KNOW THIS ONLY WORKS FOR NYC DISTRICTS  -->
+<!-- THE JS IN LINE (28) WILL MAKE IT SO THE INPUT BOX HAS "NYC ONLY" INSIDE THE BOX.
+ONCE THE USER GOES TO INPUT THEIR CD, IT DISAPPEARS. THIS IS TO LET THEM KNOW THIS ONLY WORKS FOR NYC DISTRICTS  -->
         <input id="cd-Input" name="cd-Input" type="text"value="NYC ONLY" class="faded-input" 
                 onfocus="if(this.value=='NYC ONLY') this.value='';" 
                 onblur="if(this.value=='') this.value='NYC ONLY';">

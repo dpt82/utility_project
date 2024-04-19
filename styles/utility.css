@@ -10,9 +10,6 @@ body {
   
 }
 
-/* #header{   
-    border-bottom: solid purple;
-} */
 #footer{
     /* background-color: whitesmoke; */
     border-top: solid purple;
@@ -36,6 +33,24 @@ article{
 }
 
 
+/* #fusion_graphics{
+    height: auto;
+    max-width: 405px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; 
+    align-content: center;
+    margin: 0 auto;
+}
+
+#image_container{
+    height: auto;
+    max-width: 405px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+    align-content: center;
+} */
 
 
 #intro_Grafs{
@@ -46,7 +61,7 @@ article{
     justify-content:center;
     padding-bottom:30px;
     align-items: center;
-      /* position: relative;
+    /* position: relative;
     z-index: 2; */
    
    
@@ -64,7 +79,7 @@ article{
  #header h1  {
         justify-content: center;
         text-align: center;
-        width: 50%;
+        /* width: 50%; */
         margin: 0 auto;
  }
 
@@ -108,6 +123,7 @@ article {
 }
 nav{
     display:flex;
+    text-decoration: none;
     flex-direction: row;
     justify-content: space-evenly;
     margin:0 auto;
